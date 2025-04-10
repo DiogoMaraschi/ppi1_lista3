@@ -1,0 +1,98 @@
+#japao.bandeira>div.quadro{
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#japao.bandeira>div.quadro>div.cir{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+#alemanha.bandeira>div.quadro{
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+#alemanha.bandeira>div.quadro>div.linha1{
+    background-color: black;
+    height: 33%;
+    width: 100%;
+}
+
+#alemanha.bandeira>div.quadro>div.linha2{
+    background-color: red;
+    height: 33%;
+    width: 100%;
+}
+
+#alemanha.bandeira>div.quadro>div.linha3{
+    background-color: yellow;
+    height: 33%;
+    width: 100%;
+}
+
+#holanda.bandeira>div.quadro{
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+#holanda.bandeira>div.quadro>div.linha1{
+    background-color: red;
+    height: 33%;
+    width: 100%;
+}
+
+#holanda.bandeira>div.quadro>div.linha2{
+    background-color: white;
+    height: 33%;
+    width: 100%;
+}
+
+#holanda.bandeira>div.quadro>div.linha3{
+    background-color: blue;
+    height: 33%;
+    width: 100%;
+}
+
+#italia.bandeira>div.quadro{
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+
+#italia.bandeira>div.quadro>div.coluna1{
+    background-color: green;
+    width: 33%;
+    height: 100%;
+}
+
+#italia.bandeira>div.quadro>div.coluna2{
+    background-color: white;
+    width: 33%;
+    height: 100%;
+}
+
+#italia.bandeira>div.quadro>div.coluna3{
+    background-color: red;
+    width: 33%;
+    height: 100%;
+}
+
