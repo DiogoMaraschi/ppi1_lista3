@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <style>
+        .main {
+            border: 1px solid gray;
+            border-radius: 8px;
+            width: 30%;
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+        }
+
+        .blocoMsgPedro{
+            border: 1px solid gray;
+            border-radius: 8px;
+            float: left;
+            display: flex;
+            background-color: lightgreen;
+        }
+
+        .blocoMsgEu{
+            border: 1px solid gray;
+            border-radius: 8px;
+            float: right;
+            display: flex;
+            background-color: rgb(205, 205, 205);;
+        }
+
+        .img1 {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .nomePedro{
+            text-align: left;
+        }
+
+        .nomeEu{
+            text-align: right;
+        }
+
+        .msg1{
+            margin-left: 8px;
+            margin-right: 8px;
+            padding-bottom: 40px;
+        }
+        .msg2{
+            margin-right: 8px;
+            margin-right: 8px;
+            padding-bottom: 40px;
+        }
+        .msg3{
+            margin-left: 8px;
+        }
+
+        .textBoxBtn {
+            border: 1px solid gray;
+            border-radius: 8px;
+            padding-left: 8px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .textBoxBtn input{
+            margin-top: 10px;
+            border: 1px solid gray;
+            border-radius: 8px;
+            width: 95%;
+            height: 60px;
+        }
+
+        .textBoxBtn button{
+            border: 1px solid black;
+            width: 60px;
+            margin: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="msg1">
+            <div class="nomePedro">Pedro Silva</div>
+            <div class="blocoMsgPedro">
+                <img src="do-utilizador.png" alt="" class="img1">
+                <div class="msgPedro">Olá, tudo bem?</div>
+            </div>
+        </div>
+
+        <div class="msg2">
+            <div class="nomeEu">Eu</div>
+            <div class="blocoMsgEu">
+                <img src="do-utilizador.png" alt="" class="img1">
+                <div class="msgPedro">Estou bem sim, e voce?</div>
+            </div>
+        </div>
+
+        <div class="msg1">
+            <div class="nomePedro">Pedro Silva</div>
+            <div class="blocoMsgPedro">
+                <img src="do-utilizador.png" alt="" class="img1">
+                <div class="msgPedro">Vamos sair hoje? Sabe conversar e Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+            </div>
+        </div>
+
+        <div class="msg2">
+            <div class="nomeEu">Eu</div>
+            <div class="blocoMsgEu">
+                <img src="do-utilizador.png" alt="" class="img1">
+                <div class="msgPedro">Criatura...</div>
+            </div>
+        </div>
+        <div class="textBoxBtn">
+            <input type="text" placeholder="Digite sua mensagem...">
+            <button>Enviar</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
